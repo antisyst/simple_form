@@ -6,7 +6,9 @@
   --var-color-advanced: #0059E7;
   --var-color-prim: #0162ff;
 }
-
+button {
+user-select: none;
+}
 * {
   margin: 0;
   padding: 0;
