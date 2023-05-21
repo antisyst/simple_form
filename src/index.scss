@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Gemunu+Libre&family=Josefin+Sans&family=Jost:wght@500&family=Lexend:wght@400;500;800&family=Libre+Baskerville:wght@700&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR&family=Open+Sans:wght@400;500;600&family=Oxygen&family=Pacifico&family=Plus+Jakarta+Sans:wght@800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&family=Prompt&family=Questrial&family=Quicksand:wght@600&family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;500&family=Tilt+Warp&family=Titillium+Web&display=swap');
+
+:root {
+  --var-color-black: #000;
+  --var-color-white: #ffff;
+  --var-color-advanced: #0059E7;
+  --var-color-prim: #0162ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.background-content {
+  background: url(https://static.vecteezy.com/system/resources/previews/002/907/014/large_2x/personal-data-security-and-cyber-data-security-online-concept-illustration-vector.jpg);
+  background-size: contain;
+  text-align: center;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding: 10vh;
+  background-color: #0059E7;
+  width: 50%;
+  position: relative;
+}
+@media only screen and (max-width: 1000px) {
+  .background-content {
+    height: 20vh;
+    background: #f1f7fe;
+    width: 0;
+  }
+  body {
+    background: #f1f7fe;
+  }
+}
+.creator-content {
+  text-align: center;
+position: absolute;
+margin-top: 70vh;
+   a {
+    color: var(--var-color-black);
+    padding-left: 5px;
+   }
+}
